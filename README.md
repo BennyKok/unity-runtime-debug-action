@@ -19,13 +19,13 @@ https://user-images.githubusercontent.com/18395202/127760553-2fe09c74-c6da-4ebd-
 Via UPM.
 
 ```
-UPM install via git url -> https://github.com/BennyKok/unity-runtime-debug-action.git
+UPM install via git url -> https://github.com/BennyKok/unity-runtime-debug-system.git
 ```
 
 You can also choose to add this as a submodule in your package folder.
 
 ```
-git submodule add https://github.com/BennyKok/unity-runtime-debug-action.git Packages\unity-runtime-debug-action
+git submodule add https://github.com/BennyKok/unity-runtime-debug-system.git Packages\unity-runtime-debug-system
 ```
 
 ## Examples
