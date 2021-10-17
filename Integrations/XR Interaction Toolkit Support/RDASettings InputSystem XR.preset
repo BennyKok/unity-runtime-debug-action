@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RDASettings InputSystem XR
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 4bcb3b9b853adea48be36b686d2ce19e,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enableMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: menuPauseMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: themes.values.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: themes.values.Array.data[0].themeName
+    value: Default
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: themes.values.Array.data[0].prefab
+    value: 
+    objectReference: {fileID: 5952384493425774271, guid: 91a498a613bc04b45b6f4a2a414d778f,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: actionDisplayFadeInTime
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionDisplayFadeTime
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useEmbeddedEventSystem
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: eventSystemPrefab
+    value: 
+    objectReference: {fileID: 4391802490427358298, guid: c0e5375d5dba4ac4eb49273c712ec70a,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: enableInputNavigation
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useInputSystemLayer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputLayer.menuKey
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_Name
+    value: Menu Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_ExpectedControlType
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_Id
+    value: 0106842d-8390-40f8-8c09-30e1e3546fd2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.size
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[0].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[0].m_Id
+    value: 307fbc08-6216-4028-8a9a-683f39342543
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[0].m_Path
+    value: <Keyboard>/tab
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Menu Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[1].m_Name
+    value: Xbox
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[1].m_Id
+    value: 1c94a1c4-9910-4a67-a997-65c4e527992b
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[1].m_Path
+    value: ButtonWithOneModifier
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[1].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[1].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[1].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[1].m_Action
+    value: Menu Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[1].m_Flags
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[2].m_Name
+    value: modifier
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[2].m_Id
+    value: 661cc122-e66b-4023-8bf9-d16d4b4a1291
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[2].m_Path
+    value: <Gamepad>/select
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[2].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[2].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[2].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[2].m_Action
+    value: Menu Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[2].m_Flags
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[3].m_Name
+    value: button
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[3].m_Id
+    value: 77c5d750-a309-4281-bcae-9e425dd65d6c
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[3].m_Path
+    value: <Gamepad>/start
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[3].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[3].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[3].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[3].m_Action
+    value: Menu Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[3].m_Flags
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[4].m_Name
+    value: XR Controller
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[4].m_Id
+    value: 0c61a7dd-2a8e-42a4-bf5b-135c777543a1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[4].m_Path
+    value: ButtonWithOneModifier
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[4].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[4].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[4].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[4].m_Action
+    value: Menu Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[4].m_Flags
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[5].m_Name
+    value: modifier
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[5].m_Id
+    value: 020d6852-a291-49a9-a4d0-b4d3535b036c
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[5].m_Path
+    value: <XRController>{LeftHand}/secondaryButton
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[5].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[5].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[5].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[5].m_Action
+    value: Menu Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[5].m_Flags
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[6].m_Name
+    value: button
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[6].m_Id
+    value: 6ca12edd-0a71-49dc-8e64-7d005c20af53
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[6].m_Path
+    value: <XRController>{RightHand}/secondaryButton
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[6].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[6].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[6].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[6].m_Action
+    value: Menu Toggle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.menuToggleAction.m_SingletonActionBindings.Array.data[6].m_Flags
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.useInputActionFromInputModule
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.confirm
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.cancel
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inputSystemLayer.navigate
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: touchToggleMode
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hideCursorOnStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showTooltipOnKeyboardNavigation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showTooltipOnPointerHover
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pointerHoverIgnoreMobile
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: selectionColorHighlight
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: selectionUnderlineHighlight
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: disableLogger
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: loggerMaxLine
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: addApplicationOptions
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: addQualityOptions
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: addSceneOptions
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: addThemeOptions
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: addLoggerOptions
+    value: 1
+    objectReference: {fileID: 0}

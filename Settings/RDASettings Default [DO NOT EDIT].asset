@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bcb3b9b853adea48be36b686d2ce19e, type: 3}
+  m_Name: RDASettings Default [DO NOT EDIT]
+  m_EditorClassIdentifier: 
+  isDefaultAndDontEdit: 1
+  enableMode: 0
+  menuPauseMode: 0
+  themes:
+    values:
+    - themeName: Default
+      prefab: {fileID: 2559394076283934732, guid: 58ec4a5fd80f0854cbc79850c507b61b, type: 3}
+    - themeName: Default Spaced
+      prefab: {fileID: 2975541835506345482, guid: 8a2ba8b7b1be39c4ba48f467cf224176, type: 3}
+    - themeName: Compact
+      prefab: {fileID: 7209576613531672539, guid: 1e73a1be2fd063646ac75c76b6589e89, type: 3}
+    - themeName: Compact Bottom
+      prefab: {fileID: 8765543467267073045, guid: 858e738f85e0d994abcc5c73dfc6916e, type: 3}
+  actionDisplayFadeInTime: 0.3
+  actionDisplayFadeTime: 0.5
+  useEmbeddedEventSystem: 1
+  eventSystemPrefab: {fileID: 4391802490427358298, guid: fad178ee18eb2a0409ceda6610266cde, type: 3}
+  enableInputNavigation: 1
+  useInputSystemLayer: 0
+  inputLayer:
+    menuKey: 9
+  inputSystemLayer:
+    menuToggleAction:
+      m_Name: Menu Toggle
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 0106842d-8390-40f8-8c09-30e1e3546fd2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 307fbc08-6216-4028-8a9a-683f39342543
+        m_Path: <Keyboard>/tab
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Menu Toggle
+        m_Flags: 0
+      - m_Name: Xbox
+        m_Id: 1c94a1c4-9910-4a67-a997-65c4e527992b
+        m_Path: ButtonWithOneModifier
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Menu Toggle
+        m_Flags: 4
+      - m_Name: modifier
+        m_Id: 661cc122-e66b-4023-8bf9-d16d4b4a1291
+        m_Path: <Gamepad>/select
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Menu Toggle
+        m_Flags: 8
+      - m_Name: button
+        m_Id: 77c5d750-a309-4281-bcae-9e425dd65d6c
+        m_Path: <Gamepad>/start
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Menu Toggle
+        m_Flags: 8
+    useInputActionFromInputModule: 1
+    confirm: {fileID: 0}
+    cancel: {fileID: 0}
+    navigate: {fileID: 0}
+  touchToggleMode: 0
+  hideCursorOnStart: 0
+  showTooltipOnKeyboardNavigation: 1
+  showTooltipOnPointerHover: 1
+  pointerHoverIgnoreMobile: 1
+  selectionColorHighlight: 1
+  selectionUnderlineHighlight: 1
+  disableLogger: 0
+  loggerMaxLine: 100
+  addApplicationOptions: 1
+  addQualityOptions: 1
+  addSceneOptions: 1
+  addThemeOptions: 1
+  addLoggerOptions: 1
