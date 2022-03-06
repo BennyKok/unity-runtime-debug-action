@@ -15,6 +15,7 @@ namespace BennyKok.RuntimeDebug.Systems
     /// <summary>
     /// The singleton system class to handle the lifecycle of all runtime debug actions, loading of the settings ScriptableObject and also the communication between the system and UIHandler
     /// </summary>
+    [DefaultExecutionOrder(-1)]
     [AddComponentMenu("Runtime Debug Action/System/Runtime Debug System")]
     public partial class RuntimeDebugSystem : Singleton<RuntimeDebugSystem>
     {

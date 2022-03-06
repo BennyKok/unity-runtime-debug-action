@@ -11,10 +11,10 @@ namespace BennyKok.RuntimeDebug.Components.UI
     {
         [Title("Events", false, 2)]
         [CollapsedEvent]
-        public UnityEvent onDebugMenuShow;
+        public UnityEvent onDebugMenuShow = new UnityEvent();
 
         [CollapsedEvent]
-        public UnityEvent onDebugMenuHide;
+        public UnityEvent onDebugMenuHide = new UnityEvent();
 
 
         private void OnEnable() => RuntimeDebugSystem.Instance.OnDebugMenuToggleEvent += OnToggle;
