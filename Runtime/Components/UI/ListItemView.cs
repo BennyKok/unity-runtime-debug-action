@@ -28,6 +28,7 @@ namespace BennyKok.RuntimeDebug.Components.UI
         [Title("Options", 2)]
         [Tooltip("The custom icon used if this list item is a group item")]
         public Sprite folderIcon;
+        public Sprite defaultIcon;
 
         [Tooltip("Enable the icon display of this list item")]
         public bool showIcon = true;
@@ -178,8 +179,10 @@ namespace BennyKok.RuntimeDebug.Components.UI
 
                 if (action.actionStatus != null)
                     label.text += $" [{action.actionStatus()}]";
-
-                icon.color = Color.clear;
+                
+                icon.sprite = defaultIcon;
+                
+                icon.color = icon.sprite != null ? Color.white : Color.clear;
 
                 if (isShortcutPreview || action.onGetSliderValue == null)
                     slider.gameObject.SetActive(false);
