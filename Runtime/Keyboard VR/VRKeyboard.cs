@@ -34,6 +34,18 @@ namespace BennyKok.RuntimeDebug.VR
 
         private void Start()
         {
+            RuntimeDebugSystem.Instance.OnDebugMenuToggleEvent += OnMenuToggle;
+
+            RuntimeDebugSystem.RegisterActions("VR Keyboard",
+                autoShowHideFlag,
+                DebugActionBuilder.Toggle()
+                    .WithName("Enable")
+                    .WithActionGet(() => gameObject.activeSelf)
+                    .WithActionSet((isOn) => gameObject.SetActive(isOn))
+            );
+
+            gameObject.SetActive(false);
+            
             IsCaps = false;
         }
 
@@ -61,22 +73,10 @@ namespace BennyKok.RuntimeDebug.VR
         private void Awake()
         {
             allKeys = GetComponentsInChildren<VRKey>(true);
-
+            
             autoShowHideFlag = DebugActionBuilder.Flag()
                 .WithName("Auto Show/Hide")
                 .WithFlag("vr-keyboard-auto-show", true, true);
-
-            RuntimeDebugSystem.Instance.OnDebugMenuToggleEvent += OnMenuToggle;
-
-            RuntimeDebugSystem.RegisterActions("VR Keyboard",
-                autoShowHideFlag,
-                DebugActionBuilder.Toggle()
-                .WithName("Enable")
-                .WithActionGet(() => gameObject.activeSelf)
-                .WithActionSet((isOn) => gameObject.SetActive(isOn))
-            );
-
-            gameObject.SetActive(false);
         }
 
         private void OnMenuToggle(bool show)
