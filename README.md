@@ -25,7 +25,7 @@ UPM install via git url -> https://github.com/BennyKok/unity-runtime-debug-actio
 You can also choose to add this as a submodule in your package folder.
 
 ```
-git submodule add https://github.com/BennyKok/unity-runtime-debug-action.git Packages\unity-runtime-debug-action
+git submodule add https://github.com/BennyKok/unity-runtime-debug-action.git Packages/unity-runtime-debug-action
 ```
 
 ## Examples
