@@ -295,7 +295,7 @@ namespace BennyKok.RuntimeDebug.Components.UI
                     if (subItem.view && subItem.view.previousDown) return;
 
                     subItem.actionTrigger.ResolveAction();
-                    if (subItem.actionTrigger.CanDisplayAction())
+                    if (subItem.actionTrigger.CanDisplayAction() && subItem.view != null)
                     {
                         uiParent.OnDisplayAction(subItem.actionTrigger, subItem.view.RectTransform);
                     }
