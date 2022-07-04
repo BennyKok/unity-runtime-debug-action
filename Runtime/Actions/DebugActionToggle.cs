@@ -4,7 +4,7 @@ using BennyKok.RuntimeDebug.Utils;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace BennyKok.RuntimeDebug.Actions
+namespace BennyKok.RuntimeDebug
 {
     /// <summary>
     /// Toggle action will be represented as a button toggle in the debug menu with on/off status

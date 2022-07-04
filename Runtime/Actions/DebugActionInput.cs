@@ -7,7 +7,7 @@ using BennyKok.RuntimeDebug.Systems;
 using BennyKok.RuntimeDebug.Utils;
 using UnityEngine;
 
-namespace BennyKok.RuntimeDebug.Actions
+namespace BennyKok.RuntimeDebug
 {
     /// <summary>
     /// Input action will be represented as a button in the debug menu, once triggered, an input field will popup, the input will be split by space and parse using regex, if more than one paramenters is defined and you have space between your string, use double quote for string during input.

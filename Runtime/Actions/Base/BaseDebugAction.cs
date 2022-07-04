@@ -4,7 +4,7 @@ using BennyKok.RuntimeDebug.Utils;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace BennyKok.RuntimeDebug.Actions
+namespace BennyKok.RuntimeDebug
 {
     /// <summary>
     /// Base class for all debug action
