@@ -10,7 +10,7 @@ using BennyKok.RuntimeDebug.DebugInput;
 using BennyKok.RuntimeDebug.Utils;
 using UnityEngine;
 
-namespace BennyKok.RuntimeDebug.Systems
+namespace BennyKok.RuntimeDebug
 {
     /// <summary>
     /// The singleton system class to handle the lifecycle of all runtime debug actions, loading of the settings ScriptableObject and also the communication between the system and UIHandler

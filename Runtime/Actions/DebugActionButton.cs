@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace BennyKok.RuntimeDebug.Actions
+namespace BennyKok.RuntimeDebug
 {
     /// <summary>
     /// Button action will be represented as a simple button in the debug menu

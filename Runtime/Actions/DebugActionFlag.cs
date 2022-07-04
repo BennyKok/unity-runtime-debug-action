@@ -2,7 +2,7 @@ using System;
 using BennyKok.RuntimeDebug.Utils;
 using UnityEngine;
 
-namespace BennyKok.RuntimeDebug.Actions
+namespace BennyKok.RuntimeDebug
 {
     /// <summary>
     /// Flag action will be represented as a button selector in the debug menu, triggering the action will cycle the value and notify the flag listener, if `isPersistence` is true, the value will also be updated to PlayerPrefs.
