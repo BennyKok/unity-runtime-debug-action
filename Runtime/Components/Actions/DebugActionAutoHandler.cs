@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System;
 using BennyKok.RuntimeDebug.Data;
-using BennyKok.RuntimeDebug.Attributes;
+//using BennyKok.RuntimeDebug.Attributes;
 
 #if UNITY_EDITOR
 using UnityEditorInternal;

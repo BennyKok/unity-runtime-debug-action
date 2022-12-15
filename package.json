@@ -1,9 +1,9 @@
 {
-  "name": "com.bennykok.runtime-debug-action",
+  "name": "com.ennerfelt.runtime-debug",
   "displayName": "Runtime Debug Action",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Runtime debug action with \"out of the box just works\" ui debug menu to speed up your game development cycle.",
-  "author": "BennyKok",
+  "author": "Alex Ennerfelt",
   "dependencies": {
     "com.unity.textmeshpro": "3.0.1"
   }
