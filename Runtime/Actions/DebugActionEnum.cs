@@ -3,7 +3,7 @@ using BennyKok.RuntimeDebug.Utils;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace BennyKok.RuntimeDebug.Actions
+namespace BennyKok.RuntimeDebug
 {
     /// <summary>
     /// Enum action will be represented as a button selector in the debug menu, triggering the action will cycle the value

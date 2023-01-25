@@ -1,6 +1,6 @@
 using System;
 
-namespace BennyKok.RuntimeDebug.Attributes
+namespace BennyKok.RuntimeDebug
 {
     [Serializable]
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Field | AttributeTargets.Property)]

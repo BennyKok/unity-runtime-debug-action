@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using BennyKok.RuntimeDebug.Actions;
-using BennyKok.RuntimeDebug.Attributes;
+//using BennyKok.RuntimeDebug.Attributes;
 using BennyKok.RuntimeDebug.Components.UI;
 using BennyKok.RuntimeDebug.Data;
 using BennyKok.RuntimeDebug.DebugInput;
+using BennyKok.RuntimeDebug.Systems;
 using BennyKok.RuntimeDebug.Utils;
 using UnityEngine;
 
-namespace BennyKok.RuntimeDebug.Systems
+namespace BennyKok.RuntimeDebug
 {
     /// <summary>
     /// The singleton system class to handle the lifecycle of all runtime debug actions, loading of the settings ScriptableObject and also the communication between the system and UIHandler
