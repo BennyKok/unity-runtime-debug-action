@@ -45,4 +45,4 @@ RuntimeDebugSystem.RegisterActions(
 ## Explore
 Feel free to check me out!! :)
 
-[Twitter](https://twitter.com/BennyKokMusic) | [Website](https://bennykok.com) | [AssetStore](https://assetstore.unity.com/publishers/28510)
+[Twitter](https://twitter.com/BennyKokMusic) | [Website](https://bennykok.com) | [Rhythm Game Starter](https://www.rhythm.game)
